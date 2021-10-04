@@ -13,10 +13,10 @@ public class lab4 {
         for(Phone p:phones){
             System.out.println(p.getNumber());
         }
-        phone1.receiveCall("John", "+7 (926) 368-11-32");
-        phone2.receiveCall("Kate", "+7 (926) 458-45-12");
-        phone3.receiveCall("Nick", "+7 (926) 123-48-63\n");
+        phone1.receiveCall("1", "+7 (926) 368-11-32");
+        phone2.receiveCall("2", "+7 (926) 458-45-12");
+        phone3.receiveCall("3", "+7 (926) 123-48-63\n");
 
-        Phone.sendMessage("Hello, World!", "+7 (926) 368-11-22", "+7 (926) 127-45-15", "+7 (916) 834-48-63");
+        Phone.sendMessage("Hello, World!", "+7 (926) 368-11-32", "+7 (926) 458-45-12", "+7 (926) 123-48-63\n");
     }
 }
